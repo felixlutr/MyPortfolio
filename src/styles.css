@@ -1,0 +1,39 @@
+.bodyBackground {
+  background-image: url("../images\abstract-space-atom-design-t2veobsvg7rdjqfh.jpg");
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  padding: 0%;
+  margin: 0;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  /* filter: blur(2px); */
+  filter: brightness(70%);
+  z-index: -1;
+}
+
+.topicMyName {
+  font-family: "Great Journal Three", sans-serif;
+  position: sticky;
+  font-size: 200%;
+  padding: 0%;
+  margin: 10px;
+  border: 0;
+  align-content: center;
+  text-align: center;
+  color: rgb(187, 253, 3);
+}
+
+.topicMyProfession {
+  font-family: "Great Journal four", sans-serif;
+  position: sticky;
+  font-size: 150%;
+  padding: 0%;
+  margin-top: -90px;
+  border: 0;
+  align-content: center;
+  text-align: center;
+  color: rgb(187, 253, 3);
+}
