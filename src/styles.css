@@ -1,4 +1,13 @@
 .container {
+
+}
+
+.socialNetworks {
+  color: white;
+  font-family:"Great Journal Three", sans-serif;
+  font-size: 200%;
+  text-align: center;
+  flex-direction: row;
 }
 
 .Background {
@@ -42,16 +51,15 @@
 }
 
 .personalDetailsContainer {
-  backdrop-filter: blur(10px); /* Chrome and Opera */
-  box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 15%);
-  background-color: rgb(228 228 228 / 15%); 
-  /* opacity: 0.7; */
-  width: 45%;
-  height: 200px;
+  backdrop-filter: blur(3px); /* Chrome and Opera */
+  box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 120%);
+  background-color: rgb(228 228 228 / 1%); 
+  max-width: 40%;
+  height: 150px;
   border-radius: 10px;
   border-style: groove;
   border-color: white;
-
+  margin: 10px;
 }
 
 .detailsTopic {
@@ -66,9 +74,33 @@
 }
 
 .detailsContent {
-  font-family: "Great Journal four", sans-serif;
+  font-family: "Great Journal three", sans-serif;
   color: rgb(0, 225, 255);
   font-size: 200%;
   padding: 5px;
   margin: 0;
+}
+
+.jobsContainer {
+  backdrop-filter: blur(3px); /* Chrome and Opera */
+  box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 120%);
+  background-color: rgb(228 228 228 / 1%); 
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+  border-style: groove;
+  border-color: white;
+  margin: 10px;
+}
+
+.coursesContainer {
+  backdrop-filter: blur(3px); /* Chrome and Opera */
+  box-shadow: 0px 10px 15px 10px rgb(0 0 0 / 120%);
+  background-color: rgb(228 228 228 / 1%); 
+  max-width: 40%;
+  height: auto;
+  border-radius: 10px;
+  border-style: groove;
+  border-color: white;
+  margin: 10px;
 }
