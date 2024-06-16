@@ -22,14 +22,19 @@ function App() {
         </div>
       </div>
       <div className="Background"></div>
-      <div className="topicMyName">
-        <h1>Hi my name is Felix Lyutrovnik</h1>
-      </div>
-      <div className="topicMyProfession">
-        <h1>and i'm a Front-End Developer</h1>
-      </div>
-      <div className="myPictureContainer">
-        <img src={mypic} alt="mypicture"/>;
+      <div className="highTopicsAndPicture">
+      <div className="pictureAndInfoContainer">
+          <div className="myPictureContainer">
+            <img src={mypic} alt="mypicture" />;
+          </div>
+          <div className="selfInfo">I Belive that you need to have a passion
+            for what your doing, because only then you will have a purpose and a progress.
+          </div>
+        </div>
+        <div className="topicMyNameAndProfession">
+          <h1 className="topic">Hi my name is Felix Lyutrovnik</h1>
+          <h1 className="topic">and i'm a Front-End Developer</h1>
+        </div>
       </div>
       <div className="personalDetailsContainer">
         <h1 className="detailsTopic">About Me :</h1>
@@ -85,7 +90,7 @@ function App() {
         </p>
         <h1 className="detailsTopic">Languages :</h1>
         <p className="detailsContent">
-          <br></br>Hebew - Mother language
+          <br></br>Hebew : Mother language
           <br></br>English : High evel
           <br></br>Russian : Talking only
         </p>
