@@ -8,49 +8,63 @@ function App() {
   return (
     <div className="container">
       <div className="socialNetworksContainer">
-        <div className="socialNetworks">
+        <a
+          className="socialNetworks"
+          href="https://github.com/felixlutr"
+          target="_blank"
+        >
           <span>Check My Projects</span>
-          <a href="https://github.com/felixlutr">
-            <FaGithub color="black" />
-          </a>
-        </div>
-        <div className="socialNetworks">
+          <FaGithub color="black" />
+        </a>
+        <a
+          className="socialNetworks"
+          href="https://www.linkedin.com/in/felix-lyutrovnik/"
+          target="_blank"
+        >
           <span>Chat with me on</span>
-          <a href="https://www.linkedin.com/in/felix-lyutrovnik/">
-            <FaLinkedin color="black" />
-          </a>
-        </div>
+          <FaLinkedin color="black" />
+        </a>
       </div>
       <div className="Background"></div>
       <div className="highTopicsAndPicture">
-      <div className="pictureAndInfoContainer">
-          <div className="myPictureContainer">
-            <img src={mypic} alt="mypicture" />;
-          </div>
-          <div className="selfInfo">I Belive that you need to have a passion
-            for what your doing, because only then you will have a purpose and a progress.
-          </div>
-        </div>
-        <div className="topicMyNameAndProfession">
-          <h1 className="topic">Hi my name is Felix Lyutrovnik</h1>
-          <h1 className="topic">and i'm a Front-End Developer</h1>
+        <img className="myPictureContainer" src={mypic} alt="mypicture" />
+        <div>
+          <h1 className="topicMyNameAndProfession">
+            Hi my name is Felix Lyutrovnik
+          </h1>
+          <h1 className="topicMyNameAndProfession">
+            and i'm a Front-End Developer
+          </h1>
         </div>
       </div>
       <div className="personalDetailsContainer">
-        <h1 className="detailsTopic">About Me :</h1>
-        <p className="detailsContent">
-          <br></br>Birthdate: 34 Years old (16.08.1989)
-        </p>
-        <p className="detailsContent">Address: Gedera, Benzvi Itzhak 130 </p>
-        <p className="detailsContent">Email: Felixlutrovnik@gmail.com</p>
+        <input
+          type="checkbox"
+          id="about-me-checkbox"
+          style={{ display: "none" }}
+        />
+        <h1 className="detailsTopic">
+          <label htmlFor="about-me-checkbox" style={{ display: 'block', cursor: 'pointer' }}>About Me <span>{'>'}</span></label>
+        </h1>
+        <div className="about-me-content">
+          <div>
+            <p className="detailsContent">
+              Birthdate: 34 Years old (16.08.1989)
+            </p>
+            <p className="detailsContent">
+              Address: Gedera, Benzvi Itzhak 130{" "}
+            </p>
+            <p className="detailsContent">Email: Felixlutrovnik@gmail.com</p>
+          </div>
+        </div>
       </div>
       <div className="jobsContainer">
         <h1 className="detailsTopic">Job Experience :</h1>
         <p className="detailsContent">
-          <br></br>(2021 - Present) ICTBIT: Monitoring Expert in the security
-          sphere. work with classified organizations, banks, political customers
-          on a Monitoring system named "Solarwinds". full responsibility from
-          the planning stage into implementation, configuration, managing and
+          (2021 - Present) ICTBIT: Monitoring Expert in the security sphere.
+          work with classified organizations, banks, political customers on a
+          Monitoring system named "Solarwinds". full responsibility from the
+          planning stage into implementation, configuration, managing and
           performing upgrades and migrations. working daily with a lot of SQL
           queries and powershell scripts for automations or different system
           manipulations.
@@ -66,9 +80,7 @@ function App() {
       <div className="coursesContainer">
         <h1 className="detailsTopic">Professional Courses :</h1>
         <p className="detailsContent">
-          <br></br>John Bryce: DBA , SQL Server course.
-        </p>
-        <p className="detailsContent">
+          John Bryce: DBA , SQL Server course.
           <br></br>Udemy: Python course,
           <br></br>CSS and HTML course,
           <br></br>Javascript course,
@@ -79,18 +91,18 @@ function App() {
       <div className="overallContainer">
         <h1 className="detailsTopic">Army :</h1>
         <p className="detailsContent">
-          <br></br>Challenging service as an electro-mechanic technician in a
-          very operational and classified environment. in the Air Force.
+          Challenging service as an electro-mechanic technician in a very
+          operational and classified environment. in the Air Force.
         </p>
         <h1 className="detailsTopic">Education :</h1>
         <p className="detailsContent">
-          <br></br>ORT High school - Complete high school graduation.
-          <br></br>ORT College - 2 more years of higher education and getting a
-          Diploma after graduation as an electro-mechanic technician.
+          ORT High school - Complete high school graduation. ORT College - 2
+          more years of higher education and getting a Diploma after graduation
+          as an electro-mechanic technician.
         </p>
         <h1 className="detailsTopic">Languages :</h1>
         <p className="detailsContent">
-          <br></br>Hebew : Mother language
+          Hebew : Mother language
           <br></br>English : High evel
           <br></br>Russian : Talking only
         </p>
