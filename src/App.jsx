@@ -44,7 +44,12 @@ function App() {
           style={{ display: "none" }}
         />
         <h1 className="detailsTopic">
-          <label htmlFor="about-me-checkbox" style={{ display: 'block', cursor: 'pointer' }}>About Me <span>{'>'}</span></label>
+          <label
+            htmlFor="about-me-checkbox"
+            style={{ display: "block", cursor: "pointer" }}
+          >
+            About Me <span>{">"}</span>
+          </label>
         </h1>
         <div className="about-me-content">
           <div>
@@ -59,26 +64,48 @@ function App() {
         </div>
       </div>
       <div className="jobsContainer">
-        <h1 className="detailsTopic">Job Experience :</h1>
-        <p className="detailsContent">
-          (2021 - Present) ICTBIT: Monitoring Expert in the security sphere.
-          work with classified organizations, banks, political customers on a
-          Monitoring system named "Solarwinds". full responsibility from the
-          planning stage into implementation, configuration, managing and
-          performing upgrades and migrations. working daily with a lot of SQL
-          queries and powershell scripts for automations or different system
-          manipulations.
-        </p>
-        <p className="detailsContent">
-          <br></br>(2020-2021) Comm-IT: Monitoring Expert in the security
-          sphere. giving consultancy and managing different monitoring systems
-          like Spectrum/PM/NFA, ELK , Splunk, Centerity, SCOM. working on Linux
-          OS as all the systems are installed and operated on Linux
-          environments. working with Postgresql and MariaDB.
-        </p>
+        <input type="checkbox" id="jobs-checkbox" style={{ display: "none" }} />
+        <h1 className="detailsTopic">
+          <label
+            htmlFor="jobs-checkbox"
+            style={{ display: "block", cursor: "pointer" }}
+          >
+            Job Experience <span>{">"}</span>
+          </label>
+        </h1>
+        <div className="jobs-content">
+          <p className="detailsContent">
+            (2021 - Present) ICTBIT: Monitoring Expert in the security sphere.
+            work with classified organizations, banks, political customers on a
+            Monitoring system named "Solarwinds". full responsibility from the
+            planning stage into implementation, configuration, managing and
+            performing upgrades and migrations. working daily with a lot of SQL
+            queries and powershell scripts for automations or different system
+            manipulations.
+          </p>
+          <p className="detailsContent">
+            <br></br>(2020-2021) Comm-IT: Monitoring Expert in the security
+            sphere. giving consultancy and managing different monitoring systems
+            like Spectrum/PM/NFA, ELK , Splunk, Centerity, SCOM. working on
+            Linux OS as all the systems are installed and operated on Linux
+            environments. working with Postgresql and MariaDB.
+          </p>
+        </div>
       </div>
       <div className="coursesContainer">
-        <h1 className="detailsTopic">Professional Courses :</h1>
+        <input
+          type="checkbox"
+          id="courses-checkbox"
+          style={{ display: "none" }}
+        />
+        <h1 className="detailsTopic">
+          <label
+            htmlFor="courses-checkbox"
+            style={{ display: "block", cursor: "pointer" }}
+          >
+            Professional Courses <span>{">"}</span>
+          </label>
+        </h1>
         <p className="detailsContent">
           John Bryce: DBA , SQL Server course.
           <br></br>Udemy: Python course,
@@ -89,6 +116,11 @@ function App() {
         </p>
       </div>
       <div className="overallContainer">
+        <input
+          type="checkbox"
+          id="overall-checkbox"
+          style={{ display: "none" }}
+        />
         <h1 className="detailsTopic">Army :</h1>
         <p className="detailsContent">
           Challenging service as an electro-mechanic technician in a very
