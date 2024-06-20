@@ -74,22 +74,24 @@ function App() {
           </label>
         </h1>
         <div className="jobs-content">
-          <p className="detailsContent">
-            (2021 - Present) ICTBIT: Monitoring Expert in the security sphere.
-            work with classified organizations, banks, political customers on a
-            Monitoring system named "Solarwinds". full responsibility from the
-            planning stage into implementation, configuration, managing and
-            performing upgrades and migrations. working daily with a lot of SQL
-            queries and powershell scripts for automations or different system
-            manipulations.
-          </p>
-          <p className="detailsContent">
-            <br></br>(2020-2021) Comm-IT: Monitoring Expert in the security
-            sphere. giving consultancy and managing different monitoring systems
-            like Spectrum/PM/NFA, ELK , Splunk, Centerity, SCOM. working on
-            Linux OS as all the systems are installed and operated on Linux
-            environments. working with Postgresql and MariaDB.
-          </p>
+          <div>
+            <p className="detailsContent">
+              (2021 - Present) ICTBIT: Monitoring Expert in the security sphere.
+              work with classified organizations, banks, political customers on
+              a Monitoring system named "Solarwinds". full responsibility from
+              the planning stage into implementation, configuration, managing
+              and performing upgrades and migrations. working daily with a lot
+              of SQL queries and powershell scripts for automations or different
+              system manipulations.
+            </p>
+            <p className="detailsContent">
+              <br></br>(2020-2021) Comm-IT: Monitoring Expert in the security
+              sphere. giving consultancy and managing different monitoring
+              systems like Spectrum/PM/NFA, ELK , Splunk, Centerity, SCOM.
+              working on Linux OS as all the systems are installed and operated
+              on Linux environments. working with Postgresql and MariaDB.
+            </p>
+          </div>
         </div>
       </div>
       <div className="coursesContainer">
@@ -106,14 +108,18 @@ function App() {
             Professional Courses <span>{">"}</span>
           </label>
         </h1>
-        <p className="detailsContent">
-          John Bryce: DBA , SQL Server course.
-          <br></br>Udemy: Python course,
-          <br></br>CSS and HTML course,
-          <br></br>Javascript course,
-          <br></br>React course,
-          <br></br>Fullstack Course with MERN stack.
-        </p>
+        <div className="courses-Content">
+          <div>
+            <p className="detailsContent">
+            John Bryce: DBA , SQL Server course.<br></br>
+              <br></br>Udemy: Python course,
+              <br></br>CSS and HTML course,
+              <br></br>Javascript course,
+              <br></br>React course,
+              <br></br>Fullstack Course with MERN stack.
+            </p>
+          </div>
+        </div>
       </div>
       <div className="overallContainer">
         <input
@@ -128,7 +134,7 @@ function App() {
         </p>
         <h1 className="detailsTopic">Education :</h1>
         <p className="detailsContent">
-          ORT High school - Complete high school graduation. ORT College - 2
+          ORT High school - Complete high school graduation. <br></br>ORT College - 2
           more years of higher education and getting a Diploma after graduation
           as an electro-mechanic technician.
         </p>
