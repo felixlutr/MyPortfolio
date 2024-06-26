@@ -140,8 +140,8 @@ function App() {
         </p>
         <h1 className="detailsTopic">Languages :</h1>
         <p className="detailsContent">
-          Hebew : Mother language
-          <br></br>English : High evel
+          Hebrew : Mother language
+          <br></br>English : High level
           <br></br>Russian : Talking only
         </p>
       </div>
